@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App | BonDevs</title>
+    <link rel="shortcut icon" href="images/icons8.png" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div
+      class="container"
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000"
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000"
+    >
+      <div class="search-box">
+        <i class="fa-solid fa-location-dot"></i>
+        <input type="text" placeholder="Digite a localização" />
+        <button class="fa-solid fa-magnifying-glass"></button>
+      </div>
+
+      <div class="not-found">
+        <img src="images/404.png" />
+        <p>Oops! Localização não encontrada! :/</p>
+      </div>
+
+      <div class="weather-box">
+        <img src="" />
+        <p class="temperature"></p>
+        <p class="description"></p>
+      </div>
+
+      <div class="weather-details">
+        <div class="humidity">
+          <i class="fa-solid fa-water"></i>
+          <div class="text">
+            <span></span>
+            <p>Humidade do ar</p>
+          </div>
+        </div>
+        <div class="wind">
+          <i class="fa-solid fa-wind"></i>
+          <div class="text">
+            <span></span>
+            <p>Velocidade do vento</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/e7b8aaa086.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
