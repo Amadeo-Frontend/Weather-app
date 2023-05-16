@@ -9,6 +9,7 @@
      <img align="center" alt="Amadeo-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
      <img align="center" alt="Amadeo-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
      <img align="center" alt="Amadeo-JavaScript" height="30" width="40" src="https://github.com/Amadeo-Frontend/devicon/blob/master/icons/javascript/javascript-original.svg">
+ <img align="center" alt="Amadeo-nodejs" height="30" width="40" src="https://github.com/Amadeo-Frontend/devicon/blob/master/icons/nodejs/nodejs-original.svg">
   </div>
   </br>
 
