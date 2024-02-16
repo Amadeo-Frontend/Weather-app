@@ -13,6 +13,18 @@
   </div>
   </br>
 
+  ## Descrição do projeto 📋
+
+  Este é um projeto de previsão do tempo que utiliza a API do OpenWeatherMap para fornecer informações meteorológicas de uma determinada cidade. A interface consiste em uma caixa de pesquisa onde o usuário pode digitar o nome da cidade desejada e clicar no botão de pesquisa.
+
+Quando o botão de pesquisa é clicado, o código JavaScript faz uma solicitação à API do OpenWeatherMap com a cidade inserida pelo usuário. Se a cidade for encontrada, as informações meteorológicas são exibidas na página, incluindo temperatura, descrição do clima, umidade e velocidade do vento. Além disso, uma imagem correspondente ao clima atual é exibida.
+
+Se a cidade não for encontrada (código de resposta "404" da API), uma mensagem de erro é exibida indicando que a cidade não foi encontrada.
+
+O projeto também possui funcionalidades adicionais, como a capacidade de clicar fora da caixa de pesquisa para limpar os resultados e uma animação de fade-in ao exibir as informações meteorológicas.
+
+O código também inclui a inicialização do AOS (Animate on Scroll) para adicionar animações à medida que os elementos da página são rolados para exibição.
+
  <div align="center">
  <p align="center">LIVE:</p>
 https://bondevs-weather-app.vercel.app/
