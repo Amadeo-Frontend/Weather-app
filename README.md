@@ -12,9 +12,9 @@
  <img align="center" alt="Amadeo-nodejs" height="30" width="40" src="https://github.com/Amadeo-Frontend/devicon/blob/master/icons/nodejs/nodejs-original.svg">
   </div>
   </br>
-
+ <div align="center">
   ## Descrição do projeto 📋
-
+ </div>
   Este é um projeto de previsão do tempo que utiliza a API do OpenWeatherMap para fornecer informações meteorológicas de uma determinada cidade. A interface consiste em uma caixa de pesquisa onde o usuário pode digitar o nome da cidade desejada e clicar no botão de pesquisa.
 
 Quando o botão de pesquisa é clicado, o código JavaScript faz uma solicitação à API do OpenWeatherMap com a cidade inserida pelo usuário. Se a cidade for encontrada, as informações meteorológicas são exibidas na página, incluindo temperatura, descrição do clima, umidade e velocidade do vento. Além disso, uma imagem correspondente ao clima atual é exibida.
