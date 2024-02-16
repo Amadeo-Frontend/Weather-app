@@ -13,7 +13,7 @@
   </div>
   </br>
  <div align="center">
-  ## Descrição do projeto 📋
+<H1>Descrição do projeto 📋</H1>
  </div>
   Este é um projeto de previsão do tempo que utiliza a API do OpenWeatherMap para fornecer informações meteorológicas de uma determinada cidade. A interface consiste em uma caixa de pesquisa onde o usuário pode digitar o nome da cidade desejada e clicar no botão de pesquisa.
 
